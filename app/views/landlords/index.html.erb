@@ -1,0 +1,7 @@
+<h1>Bad LandLords!</h1>
+<% @landlords.each do |landlord| %>
+<h4>Landlord: <%= landlord["respondent"] %></h4>
+<p>Address: <%= landlord["address"] %> </p>
+<p>Community Area: <%= landlord["community_area"] %> </p>
+
+<% end %>
